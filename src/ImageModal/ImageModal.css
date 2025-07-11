@@ -9,8 +9,28 @@
     z-index: 5;
 }
 .modal-container img {
-    width: 100%;
     aspect-ratio: 3/2;
     padding: 10px;
     object-fit: cover;
+}
+
+@media (min-width: 1255px) {
+    .modal-container img {
+        width: 95%;
+    }
+}
+@media (min-width: 1255px) {
+    .modal-container img {
+        width: 95%;
+    }
+}
+@media (min-width: 1255px) {
+    .modal-container img {
+        width: 95%;
+    }
+}
+@media (min-width: 1255px) {
+    .modal-container img {
+        width: 95%;
+    }
 }
