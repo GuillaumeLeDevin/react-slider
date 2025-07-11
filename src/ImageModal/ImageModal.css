@@ -19,18 +19,21 @@
         width: 95%;
     }
 }
-@media (min-width: 1255px) {
+@media (min-width: 912px) and (max-width: 1255px) {
     .modal-container img {
-        width: 95%;
+        width: 85%;
     }
 }
-@media (min-width: 1255px) {
+@media (min-width: 450px) and (max-width: 912px) {
     .modal-container img {
-        width: 95%;
+        width: 100%;
     }
 }
-@media (min-width: 1255px) {
+@media (max-width: 450px) {
     .modal-container img {
-        width: 95%;
+        display: none;
+    }
+    .modal-container {
+        display: none;
     }
 }
