@@ -31,9 +31,9 @@
 }
 @media (max-width: 450px) {
     .modal-container img {
-        display: none;
+        width: unset;
     }
-    .modal-container {
+    /* .modal-container {
         display: none;
-    }
+    } */
 }
